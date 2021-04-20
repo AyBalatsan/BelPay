@@ -1,0 +1,63 @@
+.page-footer {
+  display: block;
+  height: 110px;
+  width: 100%;
+  content: '';
+  background: linear-gradient(to right, @footer-left, @footer-right);
+  margin-top: 173px;
+}
+.page-footer__img-gecor {
+  display: none;
+  @media @desktop{
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+  }
+}
+.page-footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  @media @desktop{
+    position: relative;
+    width: @desktop-width;
+    margin: 0 auto;
+    justify-content: start;
+  }
+}
+.page-footer__logo {
+  margin: 28px 0 0 10%;
+  @media @desktop{
+    margin: 28px 0 0 230px;
+  }
+}
+.page-footer__under-title {
+  margin: 28px 0 0 1%;
+  max-width: 200px;
+  @media @tablet{
+    max-width: 600px;
+  }
+  @media @desktop{
+  margin: 28px 0 0 30px;
+  }
+}
+.ps-subtitle {
+  color: @basic-white;
+  font-size: 15px;
+
+}
+.page-footer__subtitle {
+  margin: 8px 0 0 1%;
+  @media @desktop{
+  margin: 18px 0 0 30px;
+  }
+}
+.page-footer__gecor-opasity {
+  display: none;
+  @media @desktop{
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+  }
+}

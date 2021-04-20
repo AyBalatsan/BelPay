@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after{
+  box-sizing: inherit;
+}
+body {
+  @media @desktop{
+    background-image: url(../img/bg-page.png);
+  }
+  font-family: "MuseoSansCyrl", Arial, sans-serif;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'header '
+    'capabilities'
+    'advantages'
+    'download'
+    'faq'
+    'footer';
+}
+.page-header{
+  grid-area: header;
+}
+.capabilities{
+  grid-area: capabilities;
+}
+.advantages{
+  grid-area: advantages;
+}
+.download{
+  grid-area: download;
+}
+.faq{
+  grid-area: faq;
+}
+.page-footer{
+  grid-area: footer;
+}

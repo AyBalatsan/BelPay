@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BelPay</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="video visually-hidden">
+      <img  class="video__img" src="img/header/video.png" alt="video">
+      <div class="video__close"><span>+</span></div>
+    </div>
+    <picture class="page-header__block-img">
+      <source srcset="img/header/logo.png" media="(min-width: 1270px)">
+      <source srcset="img/header/logo.png" media="(min-width: 768px)">
+      <img class="page-header__logo" src="https://via.placeholder.com/150x150" alt="logo" width="25" height="25">
+    </picture>
+    <div class="page-header__menu">
+      <p class="page-header__menu-title">menu</p>
+    </div>
+    <div class="page-header__burger">
+      <span class="page-header__burger-span page-header__x-burger"></span>
+    </div>
+    <nav class="navigation navigation--page-header">
+      <ul class="navigation__list navigation__list--page-header">
+        <li class="navigation__item navigation__item--page-header"><a class="navigation__link navigation__link--page-header" href="#capabilities">Возможности</a></li>
+        <li class="navigation__item navigation__item--page-header"><a class="navigation__link navigation__link--page-header" href="#advantages">Преимущества</a></li>
+        <li class="navigation__item navigation__item--page-header"><a class="navigation__link navigation__link--page-header" href="#download">Скачать</a></li>
+        <li class="navigation__item navigation__item--page-header"><a class="navigation__link navigation__link--page-header" href="#faq">Частые вопросы</a></li>
+      </ul>
+    </nav>
+    <div class="page-header__info">
+      <h1 class="visually-hidden">Главная страница BelPlay</h1>
+      <p class="page-header__under-title">Мобильное приложение <span class="color-1 page-header__span">BelPay</span></p>
+      <h2 class="page-header__title">Все услуги &#8212; в <span class="color-2">в</span>ашем сма<span class="color-3">р</span>тфоне!</h2>
+      <p class="page-header__subtitle">Скачивайте приложение прямо сейчас<span></span> и сразу пользуйтесь всеми преимуществами!</p>
+      <div class="download-app download-app--page-header">
+        <div class="download-app__google download-app__google--page-header">
+          <a class="download-app__link download-app__link--page-header" href="#"><img class="download-app__img download-app__img--page-header" src="img/header/google-play.png" alt="Google Play"></a>
+          <img class="download-app__qr download-app__qr--page-header" src="img/header/qr-google.png" alt="qr-google">
+        </div>
+        <div  class="download-app__app download-app__app--page-header">
+          <a class="download-app__link download-app__link--page-header" href="#"><img class="download-app__img download-app__img--page-header" src="img/header/app-play.png" alt="App Store"></a>
+          <img class="download-app__qr download-app__qr--page-header" src="img/header/qr-app.png" alt="qr-app">
+        </div>
+      </div>
+    </div>
+    <div class="page-header__block-media">
+      <img class="page-header__media-phone" src="img/header/phone.png" alt="phone">
+      <img class="page-header__media-thinks" src="img/header/thinks.png" alt="thinks">
+      <p class="page-header__media-subtitle">Нужна помощь при регистрации?<span class="color-4 page-header__media-span">Посмотрите пошаговое видео!</span></p>
+      <img class="page-header__media-decor" src="img/header/decor.png" alt="decor">
+    </div>
+  </header>
+  <main>
+    <section class="capabilities" id="capabilities">
+      <h3 class="capabilities__title header-title"><span class="color-5">В</span>озможности п<span class="color-6">р</span>иложения</h3>
+      <ul class="capabilities__list">
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/total.png" alt="total"></div>
+          <p class="capabilities__subtitle">Передать показания приборов учета коммунальных ресурсов</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/pay.png" alt="pay"></div>
+          <p class="capabilities__subtitle">Произвести оплату за коммунальные услуги без комиссии</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/sheet.png" alt="sheet"></div>
+          <p class="capabilities__subtitle">Управлять несколькими лицевыми счетами</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/list.png" alt="list"></div>
+          <p class="capabilities__subtitle">Посмотреть историю оплат и начислений</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/sms.png" alt="sms"></div>
+          <p class="capabilities__subtitle">Задать вопрос и получить на него ответ</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/mail.png" alt="mail"></div>
+          <p class="capabilities__subtitle">Подписаться на рассылку электронных счетов</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img"  src="img/capabilities/check.png" alt="check"></div>
+          <p class="capabilities__subtitle">Сформировать квитанцию</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/circulation.png" alt="circulation"></div>
+          <p class="capabilities__subtitle">Оформить автоплатеж</p>
+        </li>
+        <li class="capabilities__item">
+          <div class="capabiities__img-block"><img class="capabilities__img" src="img/capabilities/services.png" alt="services"></div>
+          <p class="capabilities__subtitle">Заказать бытовые услуги маркетплейса</p>
+        </li>
+      </ul>
+    </section>
+    <section class="advantages" id="advantages">
+      <img class="advantages__img" src="img/advantages-img.png" alt="photo advantages">
+      <div class="advantages__shell-text">
+        <h3 class="advantages__title-main header-title">П<span class="color-7">р</span>еимущест<span class="color-8">в</span>а</h3>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <h4 class="advantages__title">Обратная связь</h4>
+            <p class="advantages__subtitle">задавайте вопросы специалистам компании</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">Комиссия <span class="color-9">0%</span></h4>
+            <p class="advantages__subtitle">оплачивайте счета без комиссии, не выходя из дома или офиса!</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">Показания онлайн</h4>
+            <p class="advantages__subtitle">передавайте показания приборов учета в режиме онлайн</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">История и квитанции</h4>
+            <p class="advantages__subtitle">просматривайте историю оплат и начислений</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">Новости компании</h4>
+            <p class="advantages__subtitle">узнавайте полезную информацию о деятельности компании</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">Надежная защита</h4>
+            <p class="advantages__subtitle">авторизация пользователя по логину и паролю</p>
+          </li>
+          <li class="advantages__item">
+            <h4 class="advantages__title">Скоро</h4>
+            <p class="advantages__subtitle">кэшбэк <span class="color-9">до 10%</span> при заказе товаров/услуг в магазинах-партнерах</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="downloads" id="download">
+      <img class="downloads__img" src="img/downloads-img.png" alt="screen qr">
+      <h3 class="downloads__title header-title">Загрузите прямо сейчас!</h3>
+      <div class="download-app download-app--downloads">
+        <div class="download-app__google download-app__google--downloads">
+          <a class="download-app__link download-app__link--downloads" href="#"><img class="download-app__img download-app__img--downloads" src="img/header/google-play.png" alt="Google Play"></a>
+          <img class="download-app__qr download-app__qr--downloads" src="img/header/qr-google.png" alt="qr-google">
+        </div>
+        <div  class="download-app__app download-app__app--downloads">
+          <a class="download-app__link download-app__link--downloads" href="#"><img class="download-app__img download-app__img--downloads" src="img/header/app-play.png" alt="App Store"></a>
+          <img class="download-app__qr download-app__qr--downloads" src="img/header/qr-app.png" alt="qr-app">
+        </div>
+      </div>
+    </section>
+    <section class="faq" id="faq">
+      <h3 class="faq__title header-title">Часто зада<span class="color-10">в</span>аемые воп<span class="color-11">р</span>осы</h3>
+        <ul class="accordion">
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как зарегистрироваться в BelPay?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как оплатить коммунальные услуги?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как получить квитанцию?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как задать вопрос специалистам компании?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle">Перейдите в раздел «Еще» и нажмите на значок «Настройки приложения и учетной записи». В открывшемся окне необхо<span>-</span>димо кликнуть на вкладку «Задать вопрос». В этой вкладке открывается форма обратной связи, в которой указывается со<span>-</span>держание вопроса и тема обращения, после чего необходимо нажать на кнопку «Отправить».</p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как подключить Автоплатеж?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как получить доступ к нескольким лицевым счетам одновременно?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как сделать подписку квитанции на электронную почту?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как узнать последние показания счетчика?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как передать показания?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как оформить заказ на бытовую услугу?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+          <li class="accordion__item">
+            <div class="accordion__trigger">
+              Как оплатить за коммунальные услуги через систему быстрых платежей?
+            </div>
+            <div class="accordion__content">
+              <p class="accordion__content-subtitle"></p>
+            </div>
+          </li>
+        </ul>
+    </section>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <img class="page-footer__img-gecor" src="img/footer/decor.png" alt="decor">
+        <img class="page-footer__logo" src="img/footer/logo.png" alt="logo">
+        <div class="page-footer__block-text">
+          <p class="page-footer__under-title ps-subtitle">© 2021 «Белгородская сбытовая компания»</p>
+          <p class="page-footer__subtitle ps-subtitle">Все права защищены</p>
+        </div>
+        <img class="page-footer__gecor-opasity" src="img/footer/opasity.png" alt="decor">
+      </div>
+
+    </footer>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
